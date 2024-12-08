@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poverty</title>
+
+    <!-- Link to Bootstrap CSS for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Nav Bar section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+        <!-- Container to center the navbar content -->
+        <div class="container">
+            <!-- Navbar brand (links to the Home Page, Ways to Reduce Poverty and Examples of Poverty, Charity, Relief and FAQ-->
+            <a class="navbar-brand" href="#">Poverty</a>
+            
+            <!-- Button for toggling the navbar on small screens (for responsive design) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsing navbar content for mobile view -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Navbar links -->
+                <ul class="navbar-nav ms-auto">
+                    <!-- Home link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="Home.html">Home</a>
+                    </li>
+                    <!-- Dropdown menu for 'Information' section -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Information
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <!-- Links in the 'Information' dropdown -->
+                            <li><a class="dropdown-item" href="EffectsAndCauses.html">Effects and Causes of Poverty</a></li>
+                            <li><a class="dropdown-item" href="index.html">Ways to Reduce Poverty</a></li>
+                            <li><a class="dropdown-item" href="Poverty.html">Examples of Poverty, Charity, Relief, and FAQ</a></li>
+                        </ul>
+                    </li>
+                    <!-- About Us link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="AboutUs.html">About Us</a>
+                    </li>
+                    <!-- Contact Us link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="ContactUs.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Background image section -->
+    <div class="background"></div>
+
+    <!-- Bootstrap JS and Popper.js for interactive elements like dropdowns and modals -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+     <!-- JavaScript for DOM manipulation Adds new paragraph element to the page when it loafs -->
+    <script>
+        // Wait for the DOM to fully load before executing the script
+        document.addEventListener('DOMContentLoaded', function() {
+            // Select the body element where we will add new content
+            const body = document.querySelector('body');
+            
+            // Create a new paragraph 
+            const newParagraph = document.createElement('p');
+            
+            // Add text content to the new paragraph
+            newParagraph.textContent = 'DOM MANIPULATION SUCCESS B)';
+            
+            // Style the paragraph
+            newParagraph.style.textAlign = 'center';
+            newParagraph.style.marginTop = '10px';
+            newParagraph.style.fontSize = '22px';
+            newParagraph.style.color = 'black';
+
+            // Append the new paragraph to the body
+            body.appendChild(newParagraph);
+        });
+    </script>
+</body>
+</html>
+<!--ETHAN LORENZO-->s

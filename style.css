@@ -1,0 +1,117 @@
+/*x23236175 Matt Ethan Lorenzo*/
+body {
+    margin: 0px; /* Remove default margin */
+    padding: 0px; /* Remove default padding */
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* Background Image Styles */
+.background {
+    width: 100%; /* Full width of the container */
+    height: 1080px; /* Set the height to 1080px, ensuring it fills the screen */
+    background-image: url(./images/background.jpg); /* Set the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /* Ensure the image covers the whole element */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fix the background image while scrolling */
+    margin-top: 56px; /* Add top margin to avoid overlap with a navbar */
+}
+
+/* Customizing Bootstrap Navbar Styles */
+.navbar-dark .navbar-brand {
+    font-size: 24px; 
+    font-weight: bold; 
+}
+
+/* General Reset for Body and HTML */
+body, html {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: 'Roboto', sans-serif; 
+    line-height: 1.6; 
+}
+
+/* Header Section Styles */
+.header {
+    height: 100vh; /* Full viewport height (makes header take the entire screen height) */
+    background-color: #333; 
+    color: #9541be; 
+}
+
+/* Card Styles for Image Grid */
+.card {
+    border: 2px solid black; 
+}
+
+.card-img-top {
+    border-bottom: 2px solid black; 
+}
+
+/* Footer Section Styles */
+.footer {
+    margin-top: 20px; /* Add space between the footer and other sections */
+    background-color: #333; 
+    color: white;
+    padding: 10px 0; /* Add padding to the footer */
+}
+
+/* Button Hover Styles */
+.btn-primary:hover {
+    background-color: #0d6efd; /* Change button color to blue when hovered */
+}
+
+.btn-success:hover {
+    background-color: #198754; /* Change button color to green when hovered */
+}
+
+/* Header Section with Flexbox for Centering */
+.header {
+    height: 100vh; /* Full viewport height */
+    background-color: #333; 
+    color: #9541be;
+    display: flex; /* Use Flexbox for centering */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    text-align: center; /* Center the text inside */
+}
+
+/* Content Section Styles */
+.content {
+    padding: 20px;
+}
+
+/* Text Section Styles */
+.text-section {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.text-section h2 {
+    margin-bottom: 10px; /* Add space below the heading */
+    color: #f1230e; 
+}
+
+.text-section p {
+    color: #555; 
+}
+
+/* Card Styles (For the Image Grid) */
+.card {
+    border: 2px solid black; /* Add a black border around the card */
+}
+
+.card-img-top {
+    border-bottom: 2px solid black; /* Add a black border below the image */
+}
+
+.card-body p {
+    font-size: 14px; 
+    color: #333; 
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333; 
+    color: white; 
+    padding: 10px 0; /* Add padding to the top and bottom of the footer */
+}
